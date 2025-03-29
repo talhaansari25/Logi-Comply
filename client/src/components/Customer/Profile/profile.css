@@ -1,0 +1,93 @@
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 20px auto;
+    height: 100vh;
+}
+
+/* Profile Information (Left Section) */
+.profile-info {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-image {
+    width: 40%;
+ 
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile-info h2 {
+    color: #0047ab;
+    margin-bottom: 5px;
+    
+}
+
+.profile-info p {
+    font-size: 14px;
+    color: #555;
+    background-color: rgb(246, 246, 246);
+    margin-top: 4%;
+    font-size: 18px;
+    padding: 2% 0%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+/* Analytics Section (Right Section) */
+.profile-analytics {
+    flex: 1;
+    padding: 30px;
+}
+
+.profile-analytics h3 {
+    color: #0047ab;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/* Stats Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.stat-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stat-box p {
+    font-size: 14px;
+    color: #555;
+}
+
+.stat-box h2 {
+    margin: 5px 0;
+    color: #0047ab;
+    font-size: 26px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

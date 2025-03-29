@@ -1,0 +1,130 @@
+
+  /* Navbar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: var(--material);
+    color: white;
+  }
+  
+  nav div {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  nav h1 {
+    font-size: 1.8rem;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  header {
+    text-align: center;
+    padding: 30px 20px;
+    background: #f4f4f4;
+  }
+  
+  header h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 0px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 0 auto;
+  }
+  
+  header img {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Features Section */
+  section {
+    text-align: center;
+    padding: 25px 40px;
+  }
+  
+  section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: var(--lmaterial);
+  }
+  
+  section div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  section div div {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  section img {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 10px;
+  }
+  
+  /* CTA Section */
+  footer {
+    text-align: center;
+    padding: 50px 20px;
+    background: var(--material);
+    color: white;
+  }
+  
+  footer h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  footer div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  footer a {
+    padding: 10px 20px;
+    background: white;
+    color: var(--material);
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    background: #f4f4f4;
+  }
+  

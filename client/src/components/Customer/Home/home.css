@@ -1,0 +1,79 @@
+.navbarhome {
+  background-color: var(--material);
+}
+
+.logoSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45%;
+  width: 10%;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: white ;
+  color: black;
+  width: 80%;
+  height: 100vh;
+  
+}
+
+.sidebar {
+  width: 20%;
+  height: 100vh;
+  background-color: var(--lmaterial);
+}
+
+.sidebar li {
+  text-decoration: none !important;
+  font-size: 18px;
+  color: black !important;
+  list-style: none; /* Removes default bullet points */
+  /* width: 90% !important; */
+  display: block;
+  margin: auto;
+  margin-top: 7%;
+  font-size: 20px !important;
+  font-weight: 600;
+  margin-left: 5%;
+  width: 83%;
+  border-radius: 8px;
+  padding: 5% 3%;
+}
+
+
+.sidebar ul{
+    width: 100%;
+}
+
+.active{
+    background-color: var(--material);
+    color: white !important;
+
+}
+
+.sidebar a {
+  text-decoration: none !important; /* Ensures all links inside the sidebar have no underline */
+  color: inherit; /* Inherits the color from .sidebar li */
+  width: 100% !important;
+}
+
+.sidebar hr{
+    background-color: var(--material);
+    opacity: 0.8;
+    margin-top: 5%;    
+}
+
+li i{
+    margin-right: 3%;
+    margin-left: 1%;
+    font-size: 25px;
+}

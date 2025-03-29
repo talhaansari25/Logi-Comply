@@ -1,0 +1,2 @@
+customerId,sourceCountry,destinationCountry,name,category,declaredValue,currency,weight,quantity,batteryIncluded,powerRating,expirationDate,requiresPrescription,hazardClass,handlingInstructions,vehiclePartNumber,compatibility,perishable,storageTemperature,material,weightInCarats,fabricType,size,hsCode,subTotal,tariff,additionalCharges,totalCost,status,trackingId,length,width,height
+65d9c1f8b9a1f2c8a6e7d9c1,India,Ukraine,Smartphone,Electronics,500,USD,0.3,500,TRUE,220V,,,,,,,,,,,,,543.21.zz,2500,100,30,2630,Pending,TRACK789,17,10,34

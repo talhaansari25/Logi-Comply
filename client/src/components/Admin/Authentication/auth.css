@@ -1,0 +1,66 @@
+
+.custReg{
+    width: 30%;
+    height: 75vh;
+    background-color: var(--white);
+    display: block;
+    margin: auto;
+    margin-top: 6%;
+    border-radius: 8px;
+}
+
+.custReg h2{
+    width: 100%;
+    color: var(--white);
+    background-color: var(--material);
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-radius: 7px 7px 0px 0px;
+    padding: 2% 0%;
+}
+
+.custReg input{
+    display: block;
+    width: 80%;
+    height: 5vh;
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 17px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 6px;
+    color: var(--text);
+    border: none;
+    outline: none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.custReg button{
+    width: 50%;
+    height: 6vh;
+    background-color: var(--material);
+    display: block;
+    margin: auto;
+    margin-top: 6.5%;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.lastM{
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.lastM a{
+    cursor: pointer;
+    color: var(--material);
+    text-decoration: underline;
+}

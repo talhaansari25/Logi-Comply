@@ -1,0 +1,4 @@
+customerId,sourceCountry,destinationCountry,name,category,declaredValue,currency,weight,quantity,batteryIncluded,powerRating,expirationDate,requiresPrescription,hazardClass,handlingInstructions,vehiclePartNumber,compatibility,perishable,storageTemperature,material,weightInCarats,fabricType,size,hsCode,subTotal,tariff,additionalCharges,totalCost,status,trackingId,length,width,height
+65d9c1f8b9a1f2c8a6e7d9c1,India,North Korea,Chemical A,Chemical,50,USD,0.1,,FALSE,,31-12-2025,TRUE,,,,FALSE,,,,,,,123.12.xx,5000,200,50,5250,Pending,TRACK123,34,20,50
+65d9c1f8b9a1f2c8a6e7d9c1,China,India,Chemical B,Chemical,20000,USD,1.5,20,FALSE,,,TRUE,Class 3,Handle with gloves,,,,,,,,,321.45.yy,4000,500,100,4600,Pending,TRACK456,30,18,30
+65d9c1f8b9a1f2c8a6e7d9c1,India,France,Smartphone,Electronics,500,USD,0.3,5,TRUE,,,,,,,,,,,,,,543.21.zz,2500,100,30,2630,Pending,TRACK789,17,10,34

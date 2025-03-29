@@ -1,0 +1,40 @@
+.notification-container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #0047ab;
+}
+
+.notification-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notification-image {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.notification-content h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.notification-content p {
+    font-size: 14px;
+    color: #555;
+}

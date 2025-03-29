@@ -1,0 +1,4 @@
+customerId,sourceCountry,destinationCountry,name,category,declaredValue,currency,weight,quantity,batteryIncluded,powerRating,expirationDate,requiresPrescription,hazardClass,handlingInstructions,vehiclePartNumber,compatibility,perishable,storageTemperature,material,weightInCarats,fabricType,size,hsCode,subTotal,tariff,additionalCharges,totalCost,status,trackingId
+65d9c1f8b9a1f2c8a6e7d9c1,India,USA,Paracetamol,Medicine,50,USD,0.1,100,false,,2025-12-31,true,,,,false,,,,,,,123.12.xx,5000,200,50,5250,Pending,TRACK123
+65d9c1f8b9a1f2c8a6e7d9c1,China,India,Chemical A,Chemical,200,USD,1.5,20,false,,,true,Class 3,Handle with gloves,,,,,,,,,321.45.yy,4000,500,100,4600,Pending,TRACK456
+65d9c1f8b9a1f2c8a6e7d9c1,India,India,Smartphone,Electronics,500,USD,0.3,5,true,110V,,,,,,,,,,,,,543.21.zz,2500,100,30,2630,Pending,TRACK789

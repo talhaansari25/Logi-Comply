@@ -1,0 +1,92 @@
+.dashboard-wrapper {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+/* Dashboard Title */
+.dashboard-title {
+    text-align: center;
+    color: #0047ab;
+    margin-bottom: 20px;
+}
+
+/* Stats Grid */
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-top:3%;
+  
+}
+
+.stat-card {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.stat-card h2 {
+    margin: 5px 0;
+    color: #0047ab;
+}
+
+/* Status Color Cards */
+.approved { background: #e9f5e9; border-left: 4px solid #2ecc71; }
+.pending { background: #fff3cd; border-left: 4px solid #f39c12; }
+.rejected { background: #fce8e6; border-left: 4px solid #e74c3c; }
+
+.total-value {
+    background: #fffaeb;
+    border-left: 4px solid #ffcc00;
+}
+
+/* Highlighted Value */
+.value-highlight {
+    font-size: 22px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+/* Chart Section */
+.chart-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.chart-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.chart-box h3 {
+    color: #0047ab;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stats-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .chart-container {
+        flex-direction: column;
+    }
+}
