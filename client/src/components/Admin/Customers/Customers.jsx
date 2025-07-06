@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./customers.css"; // Create a CSS file for styling
+import "./customers.css"; 
 
 const Customers = () => {
   const [customers, setCustomers] = useState([]);
