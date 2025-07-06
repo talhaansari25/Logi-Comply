@@ -12,7 +12,7 @@ const Shipments = () => {
   const [filterStatus, setFilterStatus] = useState("");
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
-  const limit = 6; // Shipments per page
+  const limit = 6; 
 
   const fetchShipments = async (pageNumber) => {
     try {
