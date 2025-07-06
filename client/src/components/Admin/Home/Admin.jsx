@@ -29,7 +29,7 @@ const Admin = () => {
 
   return (
     <div className="customer-dashboard">
-      {/* Navbar (Visible on All Customer Pages) */}
+     
       <nav className="navbar navbarhome">
         <div className="flexLogoS">
           <img src={logo} alt="" />
