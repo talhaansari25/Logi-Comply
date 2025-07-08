@@ -3,7 +3,7 @@ import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
 import { validationResult } from "express-validator";
 
-// Admin Signup API
+
 export const adminSignup = async (req, res) => {
     try {
         const errors = validationResult(req);
