@@ -4,7 +4,7 @@ import jwt from "jsonwebtoken";
 import { validationResult } from "express-validator";
 import bcrypt from "bcryptjs";
 
-// Customer Signup API
+
 export const customerSignup = async (req, res) => {
     try {
 
