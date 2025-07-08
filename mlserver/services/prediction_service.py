@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import joblib
-import shap  # Import SHAP for explainability
+import shap  
 
 # ✅ Load trained XGBoost model and scaler
 model = joblib.load("models/xgboost.pkl")
