@@ -6,7 +6,7 @@ import RegisterAdmin from "./components/Admin/Authentication/Register.jsx";
 import LoginAdmin from "./components/Admin/Authentication/Login.jsx";
 import WelcomePage from "./components/Welcome/Welcome.jsx";
 
-// Customer Layout
+
 import Customer from "./components/Customer/Home/Customer.jsx";
 import Dashboard from "./components/Customer/Dashboard/Dashboard.jsx";
 import AddShipment from "./components/Customer/Shipments/AddShipment.jsx";
