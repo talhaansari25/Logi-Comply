@@ -24,7 +24,7 @@ const Welcome = () => {
 
   return (
     <div>
-      {/* Navbar */}
+    
       <nav>
         <div>
           <img src={slogo} alt="Logi-Comply Logo" width="50" />
@@ -36,7 +36,7 @@ const Welcome = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
+     
       <header>
         <h2>Welcome to Logi-Comply 🚢</h2>
         <p>A Compliance management system for hassle-free cross-border shipments.</p>
