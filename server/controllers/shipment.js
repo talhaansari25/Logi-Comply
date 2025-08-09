@@ -7,7 +7,7 @@ import csv from "fast-csv";
 import fs from "fs";
 import path from "path";
 
-// Create Shipment
+// Create Shipments
 export const createShipment = async (req, res) => {
     try {
         const {
