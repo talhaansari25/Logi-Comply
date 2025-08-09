@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const Admins = new mongoose.Schema({
-  name: { type: String, required: true }, // Full name of the admin
+  name: { type: String, required: true }, // Full name of admin
   email: { type: String, required: true, unique: true }, // Unique email for login
   password: { type: String, required: true }, // Hashed password for security
   phone: { type: String, required: true }, // Contact number
