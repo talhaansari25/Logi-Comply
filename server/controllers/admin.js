@@ -14,7 +14,7 @@ export const adminSignup = async (req, res) => {
         const existingAdmin = await Admins.findOne({ email });
         if (existingAdmin) return res.status(400).json({ error: "Email already registered" });
 
-        // Hash the password
+        // Hash password
         const hashedPassword = await bcrypt.hash(password, 10);
 
         const newAdmin = new Admins({ 
