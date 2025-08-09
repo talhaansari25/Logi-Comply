@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const ruleSchema = new mongoose.Schema({
-  ruleName: { type: String, required: true }, // Name of the rule
+  ruleName: { type: String, required: true }, // Name of rule
   ruleType: { 
     type: String, 
     required: true, 
