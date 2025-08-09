@@ -10,7 +10,7 @@ const Shipments = new mongoose.Schema({
     enum: ["Medicine", "Chemical", "Electronics", "Automobile", "Food", "Jewelry", "Cloth"] 
   }, // Category of product
 
-  declaredValue: { type: Number, required: true }, // Price of the product
+  declaredValue: { type: Number, required: true }, // Price of product
   currency: { type: String, default: "INR" }, // Currency (e.g., INR, USD)
   weight: { type: Number, required: true }, // Weight in grams
   quantity: { type: Number, required: true }, // Total units
