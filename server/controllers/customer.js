@@ -16,7 +16,7 @@ export const customerSignup = async (req, res) => {
         const existingCustomer = await Customers.findOne({ email });
         if (existingCustomer) return res.status(400).json({ error: "Email already registered" });
 
-        // Hash the password
+        // Hash password
         const hashedPassword = await bcrypt.hash(password, 10);
 
         const newCustomer = new Customers({ 
