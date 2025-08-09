@@ -75,7 +75,7 @@ export const updateRule = async (req, res) => {
     }
 };
 
-// Delete a Compliance
+// Delete  Compliance
 export const deleteRule = async (req, res) => {
     try {
         const { ruleId } = req.body;
